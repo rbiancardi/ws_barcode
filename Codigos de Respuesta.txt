@@ -1,0 +1,147 @@
+Códigos de Respuesta
+Código	     Descripción
+  0      APROBADA - Autorizada
+  1      DECLINADA - No Autorizada. Fondos insuficientes
+  2      DECLINADA - No Autorizada. Tarjeta vencida
+  3      DECLINADA - No Autorizada. Código de seguridad inválido
+  4      DECLINADA - No Autorizada. Tarjeta inválida
+  5      DECLINADA - No Autorizada
+  6      RECHAZADA - Solicitud del Comercio Invalida
+  7      RECHAZADA - Error de procesamiento en PSP
+  8      RECHAZADA - Timed Out
+  9      RECHAZADA - Error de procesamiento en SP
+  10     RECHAZADA - Reversada
+  11     RECHAZADA - Expirada
+  12     RECHAZADA - Por sospecha de fraude
+  13     DECLINADA - Tarjeta y Expiracion han cambiado
+  14     RECHAZADA - No Autenticada
+
+
+Códigos de Respuesta - Extendidos
+
+Código			Descripcion
+
+1000     Datos incompletos en 3DSecure
+1001     Error seleccionando la cantidad de pagos
+1002     Método deshabilitado para el comercio
+1003     Campo psp_SecureHash invalido
+1004     Error de base de datos
+1005     Error recuperando datos
+1006     No se encuentran los datos del comercio
+1007     Operación no soportada por el procesador
+1008     Error actualizando datos
+1009     Error insertando datos
+1010     Error no especificado
+1011     Referencia de Transacción duplicada
+1012     Comercio en mantenimiento
+1013     Comercio deshabilitado
+1014     Transacción inexistente
+1015     El número de tarjeta no es válido para el producto
+1016     Falta un campo mandatario
+1017     Tipo o longitud invá¡lido(a)
+1018     Producto no configurado
+1019     El monto a devolver es mayor al de la Transacción original
+1020     Transacción no susceptible de ser anulada o devuelta
+1021     Error buscando terminal virtual para operar
+1022     Error liberando terminal virtual
+1023     Error obteniendo el plan
+1024     Error de conexión con el procesador
+1025     Error de redirección en modo 3-partes. Falta campo mandatorio
+1026     Error de validación en modo 3-partes. psp_MerchTxRef no coincide
+1027     Error de validación en modo 3-partes. psp_Session3p no coincide
+1028     Error en modo 3-partes. Error al cargar el formulario <frm_custom> del comercio
+1029     Datos adicionales de Visa incompletos
+1030     VBV sin servicio, error de comunicación xml-rpc
+1031     VBV identificador de compra inválido
+1032     VBV error al obtener idCompra
+1033     VBV sin servicio, error al recibir respuesta de Verified by Visa. Resultado Autenticación: NO RECIBIDO.
+1034     VBV sin servicio, error al recibir respuesta de Verified by Visa. Resultado Autenticación: ERROR.
+1035     VBV comprador no autenticado.
+1036     Error WSDL - Contáctese con el administrador
+1037     Datos incompletos de Address Verification Service de Amex
+1038     URL de retorno inválida
+1039     Sesión expirada
+1040     Formulario de captura 3-partes expirado
+1041     Error de configuración
+1042     Error de ruteo: Operacion invalida para el metodo de procesamiento
+1043     Error de validación en modo 3-partes. La transaccion no es tipo 3-partes
+1044     Error de validación en metodo Split. El requerimiento no posee al menos 2 transacciones.
+1045     Método de procesamiento no habilitado para el comercio
+1046     Campo psp_Amount total inválido
+1047     Error de validación en metodo Split. Referencia inválida a la transacción principal
+1048     La plataforma no permite el uso de html frames
+1049     Error en modo 3-partes. La transaccion ya ha sido procesada con anterioridad
+1050     Error de validación en modo 3-partes. Transacción inexistente
+1051     Error en modo 3-partes. Error al cargar el archivo de idioma para el formulario
+1052     Acceso denegado
+1053     La tarjeta crédito ingresada es inválida para la promoción
+1054     Promoción no definida para el comercio
+1055     El campo psp_FirstPaymentDeferral no esta permitido para el producto/método de procesamiento
+1056     Tipo de Documento no soportado
+1057     El numero de tarjeta no pertenece a ningun rango de prefijos
+1058     Referencia de Transacción duplicada dentro del requerimiento Split
+1059     BIN no habilitado
+1060     Error eliminando datos
+1061     MerchantId duplicado dentro del requerimiento Split
+1062     Operaciones con importes en centavos no permitida por el servicio de pago
+1063     Moneda invalida para el método de procesamiento
+1064     El campo psp_PaymentAmount es obligatorio en el modo psp_Plan=CC
+1065     No se ha recibido respuesta de WebPay Transbank'
+1066     Cantidad de cuotas no permitida
+1067     Idioma de formulario no soportado por el medio de pagos
+1068     Campo psp_ExpDate1 invalido
+1069     Campo psp_ExpDate2 invalido
+1070     Campo psp_ExpDate3 invalido
+1071     Campo psp_FirstExpDate invalido
+1072     Imposible anular una Autorizacion por un monto mayor o menor
+1073     El monto a capturar supera al maximo permitido
+1074     Plan invalido para el producto
+1075     Transacción no susceptible de ser capturada
+1076     Imposible anular una Devolucion por un monto mayor o menor'
+1077     Error de sistema
+1078     Imposible anular por un monto mayor o menor
+1079     Producto no soportado para el método del procesamiento
+1080     Plan invalido para el método de procesamiento
+1081     Plan invalido para la cantidad de cuotas informadas
+1082     El campo psp_PaymentAmount no esta permitido para el método de procesamiento
+1083     Campo psp_CardExpDate invalido
+1084     Se requiere envio de campo psp_CardExpDate
+1085     Se requiere envio de campo psp_CardNumber y psp_CardExpDate
+1086     Campos e-commerce de Visa incompletos
+1087     Pais invalido para el método de procesamiento
+1088     Error en conexión al servicio de pago
+1089     Autorizacion capturada con anterioridad
+1090     Transaccion recurrente no soportada por el servicio de pago
+1091     Transacción inexistente en el servicio de pago
+1092     Requerimiento inválido, verifique estructura de datos de envío
+1093     Método de procesamiento inválido
+1094     QueryCriteria inválido
+1095     Consulta inválida
+1096     El servicio de pago ha devuelto un código de respuesta inesperado
+1097     Relacion Pais-Moneda-Producto invalida para el servicio de pago
+1098     Campo psp_3dSecureAction invalido para el servicio de pago
+1099     Timeout aguardando respuesta del servicio de pago
+1100     Servicio en mantenimiento
+1101     El browser del usuario no tiene habilitado el uso de cookies
+1102     Transaccion recurrente no acepta cuotas
+1103     Metodo no disponible para transacciones recurrentes
+1104     3D-Secure no soportado por el servicio de pago
+1105     Campos psp_VisaArg_DA_* invalidos para el servicio de pago
+1106     Existe una anulacion o devolucion PENDIENTE para esta transacción
+1107     Campos psp_VisaArg_EF_* invalidos para el servicio de pago
+1108     Campos psp_AmexArg_AVS_* invalidos para el servicio de pago
+1109     Terminal virtual temporalmente inhabilitada para realizar anulación
+1110     No procesada - Rechazo en Split
+1111     Devolucion parcial no permitida para el producto/servicio de pago
+1112     Devolucion no permitida para el producto/servicio de pago
+1113     Error de configuración del comercio - FS: Modo de operacion no definido
+1114     Transaccion no requiere revision manual
+1115     Conexion no habilitada
+1116     Conexion en mantenimiento
+1117     Captura parcial no permitida para el producto/servicio de pago
+1118     Error de validacion en metodo Split. Uso de multiples productos no permitido
+1119     Tipo de Impuesto no soportado
+1120     Campo psp_ForceProcessingMethod no permitido
+
+
+
